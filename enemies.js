@@ -10,6 +10,12 @@ function MakeEnemies(){//
     log ("made enemies",2);
  }
  
+
+ /**
+  * make bullets for enemy
+  * @param {*} ex 
+  * @param {*} ey 
+  */
  function makeEnemiesBullets(ex,ey){
     var eb = {}
     eb.x= ex;    //moveing the bullets to the midel of the enemies.
