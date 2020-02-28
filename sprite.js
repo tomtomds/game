@@ -82,6 +82,11 @@ function allowFire(){
 }
 
 
+/**
+ * this will creat the bullets for the player ship
+ * @param {this will get the player x postion.} x 
+ * @param {this will get the y postion.} y 
+ */
 function makebullet(x,y){ // getting the x,y cordations of ship 
     if(bullets.length>maxBullets){return}
    var b = {}
@@ -232,6 +237,11 @@ for(var eb=0;eb<enemyBullets.length;eb++){
  ctx.fillText ("score: "+score, 8, 20);
 }
 
+/**
+ * this will detect the collision of the enemies and the players bullets.
+ * @param {this will get the list of player bullets on screen} bullet 
+ * @param {this will get the list of enemies on screen} enemies 
+ */
 function collision(bullet, enemies){ // collision for enemies and bullets
     var x = enemies.x + enemies.offset
    
@@ -378,6 +388,9 @@ for(var eb=0;eb<enemyBullets.length;eb++){
  }
 }
 
+/**
+ * will update the player bullets. it will do the push, time, get read of the bullets and enemies that are hit and add score
+ */
 function updateBullets(){
     
     //update bullets
