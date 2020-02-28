@@ -84,8 +84,8 @@ function allowFire(){
 
 /**
  * this will creat the bullets for the player ship
- * @param {this will get the player x postion} x 
- * @param {this will get the y postion} y 
+ * @param {Number} x 
+ * @param {number} y 
  */
 function makebullet(x,y){ // getting the x,y cordations of ship 
     if(bullets.length>maxBullets){return}
@@ -239,8 +239,8 @@ for(var eb=0;eb<enemyBullets.length;eb++){
 
 /**
  * this will detect the collision of the enemies and the players bullets.
- * @param {this will get the list of player bullets on screen} bullet 
- * @param {this will get the list of enemies on screen} enemies 
+ * @param {*} bullet 
+ * @param {*} enemies 
  */
 function collision(bullet, enemies){ // collision for enemies and bullets
     var x = enemies.x + enemies.offset
