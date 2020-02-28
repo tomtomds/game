@@ -84,7 +84,7 @@ function allowFire(){
 
 /**
  * this will creat the bullets for the player ship
- * @param {Number} x 
+ * @param {number} x 
  * @param {number} y 
  */
 function makebullet(x,y){ // getting the x,y cordations of ship 

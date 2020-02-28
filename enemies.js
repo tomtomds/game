@@ -13,8 +13,8 @@ function MakeEnemies(){//
 
  /**
   * make bullets for enemy
-  * @param {*} ex 
-  * @param {*} ey 
+  * @param {number} ex 
+  * @param {number} ey 
   */
  function makeEnemiesBullets(ex,ey){
     var eb = {}
