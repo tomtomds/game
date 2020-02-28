@@ -84,8 +84,8 @@ function allowFire(){
 
 /**
  * this will creat the bullets for the player ship
- * @param {this will get the player x postion.} x 
- * @param {this will get the y postion.} y 
+ * @param {this will get the player x postion} x 
+ * @param {this will get the y postion} y 
  */
 function makebullet(x,y){ // getting the x,y cordations of ship 
     if(bullets.length>maxBullets){return}
